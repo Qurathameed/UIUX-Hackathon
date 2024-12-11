@@ -8,21 +8,21 @@ const products = [
         id: 1,
         name: "The Dandy chair",
         price: "$100",
-        image: "/a1.png",
+        img: "/a1.png",
 
     },
     {
         id: 2,
         name: "Rustic Vase Set",
         price: "$960",
-        image: "/a2.png",
+        img: "/a2.png",
 
     },
     {
         id: 3,
         name: "The Silky Vase",
         price: "$700",
-        image: "/a3.png",
+        img: "/a3.png",
 
     },
    
@@ -30,42 +30,42 @@ const products = [
         id: 5,
         name: "The Golden Lamp",
         price: "$15",
-        image: "/a5.png",
+        img: "/a5.png",
 
     },
     {
         id: 6,
         name: "Rustic Vase Set",
         price: "$250",
-        image: "/a6.png",
+        img: "/a6.png",
 
     },
     {
         id: 7,
         name: "The Silky Vase",
         price: "$250",
-        image: "/a7.png",
+        img: "/a7.png",
 
     },
     {
         id: 8,
         name: "The Lucy Lamp",
         price: "$50",
-        image: "/a8.png",
+        img: "/a8.png",
 
     },
     {
         id: 9,
         name: "The Dandy chair",
         price: "$450",
-        image: "/a9.png",
+        img: "/a9.png",
 
     },
     {
         id: 10,
         name: "Rustic Vase Set",
         price: "$450",
-        image: "/a2.png",
+        img: "/a2.png",
     },
 
 ];
@@ -104,13 +104,7 @@ function List() {
                 </div>
             </div>
 
-
-
-
-
-
-
-            <div className="bg-white mr-2 ml-2 w-[98%]  text-white flex justify-between h-16 items-center px-1 py-1 text-xl lg:text-xs">
+        <div className="bg-white mr-2 ml-2 w-[98%]  text-white flex justify-between h-16 items-center px-1 py-1 text-xl lg:text-xs">
 
                 <div className="flex items-center gap-5 ml-10 ">
                     <select
@@ -169,7 +163,7 @@ function List() {
 
 
                             <img
-                                src={product.image}
+                                src={product.img}
                                 alt={product.name}
                                 className="w-full h-[180px] object-contain bg-gray-100"
                             />

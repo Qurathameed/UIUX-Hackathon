@@ -2,7 +2,7 @@
 import Link from "next/link";
 const Hero = () => {
     return (
-        <div className="flex items-center justify-between mt-10  bg-white text-slate-700 mr-5 ml-5 rounded-lg w-[90%] max-w-6xl mx-auto  overflow-hidden">
+        <div className="flex items-center justify-between mt-10  bg-white text-[#2A254B]  mr-5 ml-5 rounded-lg w-[90%] max-w-6xl mx-auto  overflow-hidden">
 
             <div className="w-3/4 p-2">
                 <h1 className="text-[#2A254B]  font-serif text-xl mt-10 md:text-3xl font-semibold mb-4">
@@ -25,12 +25,19 @@ const Hero = () => {
 
             <div className="hidden md:block  w-1/2 ">
                 <img
-                    src="/a0.png"
+                    src="/a9.png"
                     alt="Furniture Chair"
                     className="h-[400px] w-full object-cover mt-5"
                 />
             </div>
         </div>
+
+
+
+
+
+
+
     );
 };
 

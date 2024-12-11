@@ -26,7 +26,7 @@ const LogIn = () => {
 
                     <div className="w-1/2 p-3 flex justify-center items-center">
                         <img
-                            src="/a9.png"
+                            src="/a7.png"
                             alt="Shopping Cart"
                             className="w-full h-60"
                         />
@@ -72,9 +72,6 @@ const LogIn = () => {
                                 </button>
                             </Link>
                         </form>
-
-
-
 
                         <p className="text-center text-gray-500 mt-4">
                             Already have an account?{" "}

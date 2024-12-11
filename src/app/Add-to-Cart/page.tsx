@@ -8,7 +8,7 @@ const Cart = () => {
             name: "The Dandy chair",
             description: "A chair is a piece of furniture that comfortable seating option...",
             price: 100,
-            image: "/a1.png",
+            img: "/a1.png",
         },
         {
             id: 2,
@@ -16,28 +16,28 @@ const Cart = () => {
             description: "A timeless ceramic vase with a tri color grey glaze...",
 
             price: 960,
-            image: "/a2.png",
+            img:"/a2.png",
         },
         {
             id: 3,
             name: "The Silky Vase",
             description: "A timeless ceramic vase with a tri color white glaze...",
             price: 700,
-            image: "/a3.png",
+            img: "/a3.png",
         },
         {
             id: 4,
             name: "The Lucy Lamp",
             description: "A lamp is a Lighting device that illuminates spaces....",
             price: 250,
-            image: "/a4.png",
+            img: "/a4.png",
         },
         {
             id: 5,
             name: "Golden Lamp",
             description: "A lamp is a Lighting device that adding both functionality...",
             price: 15,
-            image: "/a5.png",
+            img: "/a5.png",
         },
     ];
 
@@ -68,7 +68,7 @@ const Cart = () => {
                         className="flex items-center gap-4 p-4 border rounded-md shadow-sm"
                     >
                         <img
-                            src={product.image}
+                            src={product.img}
                             alt={product.name}
                             className="w-24 h-24 object-cover rounded"
                         />

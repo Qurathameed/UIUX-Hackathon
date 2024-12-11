@@ -16,12 +16,12 @@ const MubNav = () => {
     };
 
     return (
-        <div className="lg:hidden bg-white shadow-md relative">
+        <div className="lg:hidden bg-sky-950  shadow-md relative">
 
             <div className="flex justify-between  items-center px-4 py-3">
 
                 <FiMenu
-                    className="w-6 h-6 text-sky-950 cursor-pointer"
+                    className="w-6 h-6 text-whitecursor-pointer"
                     onClick={toggleMenu}
                 />
             </div>

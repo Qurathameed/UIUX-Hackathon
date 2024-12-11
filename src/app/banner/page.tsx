@@ -59,10 +59,6 @@ function Banner() {
                         <p className="text-sm font-semibold">Recycled packaging</p>
                         <p className="mt-4">We use 100% recycled packaging to ensure our footprint is manageable</p>
                     </div>
-
-
-
-
                 </div>
             </div>
         </div>

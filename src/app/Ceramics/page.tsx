@@ -11,21 +11,21 @@ const products = [
         id: 1,
         name: "The Dandy chair",
         price: "$100",
-        image: "/a1.png",
+        img: "/a1.png",
         oldPrice: "$160",
     },
     {
         id: 2,
         name: "Rustic Vase Set",
         price: "$960",
-        image: "/a2.png",
+        img: "/a2.png",
         oldPrice: "$420",
     },
     {
         id: 3,
         name: "The Silky Vase",
         price: "$700",
-        image: "/a3.png",
+        img: "/a3.png",
         oldPrice: "$120",
 
     },
@@ -33,7 +33,7 @@ const products = [
         id: 4,
         name: "The Lucy Lamp",
         price: "$250",
-        image: "/a4.png",
+        img: "/a4.png",
         oldPrice: "$120",
 
     },
@@ -65,7 +65,7 @@ function Ceramics() {
                         >
 
                             <img
-                                src={product.image}
+                                src={product.img}
                                 alt={product.name}
                                 className="w-full h-[250px] object-contain bg-white"
                             />
